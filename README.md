@@ -45,4 +45,8 @@ sudo docker stop id
 </br>
 </details>
 
+## Credits 
+* Thanks to [GreyMatter's](https://github.com/Greymattersbot) for making a Paid Repository Public for Free.
 
+## Note 
+- I invite all the Devs to please come forward and contribute in this Open & Free Project by adding more URL Shorteners to it.
