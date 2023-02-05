@@ -46,6 +46,7 @@ sudo docker stop id
 </details>
 
 ## Credits 
+* Thanks to Original Dev [Annihilatorrrr](https://github.com/annihilatorrrr)
 * Thanks to [GreyMatter's](https://github.com/Greymattersbot) for making a Paid Repository Public for Free.
 
 ## Note 
