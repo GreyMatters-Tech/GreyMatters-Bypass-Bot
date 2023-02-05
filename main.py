@@ -20,7 +20,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 pbot = Client(
     "bypasserbot",
-    api_id=,
+    api_id="",
     api_hash="",
     bot_token="",
 )
