@@ -7,11 +7,11 @@ A bot to bypass shorted links.
 
 - Clone The Repo
 ```
-git clone -b new https://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@github.com/Mokshb6458/bigbro-bp
+git clone -b new https://github.com/Greymattersbot/GreyMatters-Bypass-Bot
 ```
 - Change Directory 
 ```
-cd bigbro-bp
+cd GreyMatters-Bypass-Bot
 ```
 - Update & Upgrade Packages
 ```
