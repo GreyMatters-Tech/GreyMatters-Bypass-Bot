@@ -20,22 +20,22 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 pbot = Client(
     "bypasserbot",
-    api_id=9529563,
-    api_hash="a6c1e1c8daecd5d1f7da03d42032d09a",
-    bot_token="5932339826:AAGBj0Vm9Kac0NEs8aJwGZpGvNhvGP-ASaY",
+    api_id=,
+    api_hash="",
+    bot_token="",
 )
-drivebuzz_crypt = "RFFiMGNXQUY3N3Y1RGJ4MXAyM2VWSktZZnpyRDhEMFlXV2NoR1VxcytROD0%3D"
-drivefire_crypt = "RFFiMGNXQUY3N3Y1RGJ4MXAyM2VWSktZZnpyRDhEMFlXV2NoR1VxcytROD0%3D"
+drivebuzz_crypt = ""
+drivefire_crypt = ""
 jiodrive_crypt = ""
-gadrive_crypt = "RFFiMGNXQUY3N3Y1RGJ4MXAyM2VWSktZZnpyRDhEMFlXV2NoR1VxcytROD0%3D"
-kolop_crypt = "V2wwSEVkL3NtR2V5aXBrU2hxT3NDaHV0MnpJekZ1dnlmZTdvL3FXQUtjcz0%3D"
-katdrive_crypt = "V2wwSEVkL3NtR2V5aXBrU2hxT3NDaHV0MnpJekZ1dnlmZTdvL3FXQUtjcz0%3D"
-gdtot_crypt = "eTAzVVJxYzVzbjJBRGJWWnF0QXkxaFVZV1pNa0ZBYXdqR1dkSjNLSXFyWT0%3D"
-appdrive_email = "akimaxrolex@gmail.com"
-appdrive_password = "Batman@007@"
-hubdrive_crypt = "ck4rL1lZVzRwRDJ6TFNPVVF3Lzg0VkpudWhldkJiamdhTUdhMmp3c3ZzTT0%3D"
-sharerpw_xsrf_token = "eyJpdiI6IlwvTUhNZGZEU3dwdGVqZzZ4VzFQSTlBPT0iLCJ2YWx1ZSI6InhrSmNXS2pUOUVhZkNKYWZJOGJrTEwrcjBoYzl0Zk5CTytHK09nMU1QWFRwemlpdHdVNm5SQzlZRE9tQlNcLzUxIiwibWFjIjoiMjUzMzQzNjM2N2M0ZjA3NjQwNGY1ZDY2MTc5N2ViMWZlNjg1MTkwNzBjNWFhNjkwZjNkMDk5ZTQyNzgyMjFkMyJ9"
-sharerpw_laravel_session = "eyJpdiI6IlFrSEc2bmFcL3hTbldQXC91c1wvMEorV2c9PSIsInZhbHVlIjoiWGdVXC9GU1FJWFdFUVl0SGZiNzJBWTZ6SkFXaHB5eWpUN3ZDM0h1aU1JVFoyV0Jpbk0rc1lJazhWUnVFa0JNZVUiLCJtYWMiOiJhMDg5ZTU1NjE3MmFiYWNjOTcwOWVkMzFmMjBlODQ5NWZiOTI3MDMwZjAzNTk3MDAyYjAxMGY4ZmU0ODk2MjlhIn0%3D"
+gadrive_crypt = ""
+kolop_crypt = ""
+katdrive_crypt = ""
+gdtot_crypt = ""
+appdrive_email = ""
+appdrive_password = ""
+hubdrive_crypt = ""
+sharerpw_xsrf_token = ""
+sharerpw_laravel_session = ""
 channel_id = -1001601615641
 http = AsyncClient(http2=True, timeout=Timeout(10.0))
 try:
