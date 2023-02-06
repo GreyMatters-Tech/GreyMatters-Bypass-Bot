@@ -30,7 +30,7 @@ sudo docker build . -t bypass
 ```
 - Run the image:
 ```
-sudo docker run -p 7:7 bypass
+sudo docker run -p 80:80 bypass
 ```
 - To stop the running image:
 ```
@@ -44,6 +44,26 @@ sudo docker stop id
 </p>
 </br>
 </details>
+
+### Variables
+
+* `API_HASH` API Hash from my.telegram.org
+* `API_ID` API ID from my.telegram.org
+* `BOT_TOKEN` Bot token from @BotFather
+* `PORT` server port of host. Defaults is `80`
+* `Channel_id`
+* `Drivebuzz_crypt`
+* `Drivefire_crypt`
+* `Jiodrive_crypt`
+* `Gadrive_crypt`
+* `Kolop_crypt`
+* `Katdrive_crypt`
+* `Gtot_crypt`
+* `Appdrive_email`
+* `Appdrive_password`
+* `Hubdrive_crypt`
+* `Sharerpw_xsrf_token`
+* `Sharerpw_laravel_session`
 
 ## Credits 
 * Thanks to Original Dev [Annihilatorrrr](https://github.com/annihilatorrrr)
