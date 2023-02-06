@@ -20,7 +20,6 @@ from pyrogram.errors import RPCError, FloodWait, UserNotParticipant
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from subprocess import Popen
 from config import Config
-from config import LOGGER
 
 PORT = environ.get('PORT', '80')
 Popen(f"gunicorn app:app --bind 0.0.0.0:{PORT}", shell=True)
@@ -43,7 +42,7 @@ appdrive_password =Config.Appdrive_password
 hubdrive_crypt =Config.Hubdrive_crypt
 sharerpw_xsrf_token =Config.Sharerpw_xsrf_token
 sharerpw_laravel_session =Config.Sharerpw_laravel_session
-channel_id = -1001601615641
+channel_id =Config.Channel_id
 http = AsyncClient(http2=True, timeout=Timeout(10.0))
 try:
     loop = get_event_loop()
