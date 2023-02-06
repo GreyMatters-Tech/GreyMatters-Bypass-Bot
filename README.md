@@ -68,6 +68,7 @@ sudo docker stop id
 ## Credits 
 * Thanks to Original Dev [Annihilatorrrr](https://github.com/annihilatorrrr)
 * Thanks to [GreyMatter's](https://github.com/Greymattersbot) for making a Paid Repository Public for Free.
+* Also Thanks to [khainee](https://github.com/khainee),[]()
 
 ## Note 
 - I invite all the Devs to please come forward and contribute in this Open & Free Project by adding more URL Shorteners to it.
