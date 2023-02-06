@@ -22,7 +22,7 @@ from subprocess import Popen
 from config import Config
 from config import LOGGER
 
-PORT = environ.get('PORT', '')
+PORT = environ.get('PORT', '80')
 Popen(f"gunicorn app:app --bind 0.0.0.0:{PORT}", shell=True)
 
 pbot = Client(
