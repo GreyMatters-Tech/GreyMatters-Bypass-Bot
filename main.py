@@ -1607,6 +1607,7 @@ async def processor(c: Client, m: Message):
 
 @pbot.on_message(filters.text | filters.caption & ~filters.command("start") & ~filters.me & filters.private)
 async def worker(c: pbot, m: Message):
+    await m.reply_text("""Here's your bypassed link""")
     with suppress(RuntimeError):
         loop.create_task(processor(c, m))
     return
