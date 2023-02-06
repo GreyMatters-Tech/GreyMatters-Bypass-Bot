@@ -17,25 +17,27 @@ from pyrogram import Client, filters
 from pyrogram.enums import MessageEntityType, ChatMemberStatus
 from pyrogram.errors import RPCError, FloodWait, UserNotParticipant
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
+from config import Config
+from config import LOGGER
 
 pbot = Client(
     "bypasserbot",
-    api_id="",
-    api_hash="",
-    bot_token="",
+    api_id=Config.API_ID,
+    api_hash=Config.API_HASH,
+    bot_token=Config.BOT_TOKEN,
 )
-drivebuzz_crypt = ""
-drivefire_crypt = ""
-jiodrive_crypt = ""
-gadrive_crypt = ""
-kolop_crypt = ""
-katdrive_crypt = ""
-gdtot_crypt = ""
-appdrive_email = ""
-appdrive_password = ""
-hubdrive_crypt = ""
-sharerpw_xsrf_token = ""
-sharerpw_laravel_session = ""
+drivebuzz_crypt =Config.Drivebuzz_crypt
+drivefire_crypt =Config.Drivefire_crypt
+jiodrive_crypt =Config.Jiodrive_crypt
+gadrive_crypt =Config.Gadrive_crypt
+kolop_crypt =Config.Kolop_crypt
+katdrive_crypt =Config.Katdrive_crypt
+gdtot_crypt =Config.Gtot_crypt
+appdrive_email =Config.Appdrive_email
+appdrive_password =Config.Appdrive_password
+hubdrive_crypt =Config.Hubdrive_crypt
+sharerpw_xsrf_token =Config.Sharerpw_xsrf_token
+sharerpw_laravel_session =Config.Sharerpw_laravel_session
 channel_id = -1001601615641
 http = AsyncClient(http2=True, timeout=Timeout(10.0))
 try:
