@@ -51,6 +51,7 @@ sudo docker stop id
 * `API_ID` API ID from my.telegram.org
 * `BOT_TOKEN` Bot token from @BotFather
 * `PORT` server port of host. Defaults is `80`
+* `Channel_id`
 * `Drivebuzz_crypt`
 * `Drivefire_crypt`
 * `Jiodrive_crypt`
