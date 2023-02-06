@@ -1,3 +1,4 @@
+from os import environ
 from asyncio import get_event_loop, set_event_loop, new_event_loop, sleep
 from base64 import b64decode
 from contextlib import suppress
@@ -17,8 +18,12 @@ from pyrogram import Client, filters
 from pyrogram.enums import MessageEntityType, ChatMemberStatus
 from pyrogram.errors import RPCError, FloodWait, UserNotParticipant
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
+from subprocess import Popen
 from config import Config
 from config import LOGGER
+
+PORT = environ.get('PORT', '')
+Popen(f"gunicorn app:app --bind 0.0.0.0:{PORT}", shell=True)
 
 pbot = Client(
     "bypasserbot",
