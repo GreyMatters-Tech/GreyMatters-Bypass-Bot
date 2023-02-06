@@ -8,7 +8,7 @@ class Config:
     Drivefire_crypt = os.environ.get("Drivefire_crypt", "")
     Jiodrive_crypt = os.environ.get("Jiodrive_crypt", "")
     Gadrive_crypt = os.environ.get("Gadrive_crypt", "")
-    Gadrive_crypt = os.environ.get("Gadrive_crypt", "")
+    Kolop_crypt = os.environ.get("Kolop_crypt", "")
     Katdrive_crypt = os.environ.get("Katdrive_crypt", "")
     Gtot_crypt = os.environ.get("Gtot_crypt", "")
     Appdrive_email = os.environ.get("Appdrive_email", "")
